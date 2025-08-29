@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+   <link rel="shortcut icon" href="http://sundayleisure.atwebpages.com/favicon.ico">
+   <link rel="apple-touch-icon" href="http://sundayleisure.atwebpages.com/apple-touch-icon.png" sizes="76x76">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta name="author" content="Mark Woodman">
+   <meta name="keywords" content="Sunday Leisure Goldpin Tenpin Bowling League, tenpin, bowling, Charrington Bowl, Tolworth">
+   <meta name="description" content="A website for the Sunday Leisure Goldpin Tenpin Bowling League members who bowl at the Charrington Bowl Tenpin Bowling Centre, Tolworth, Surrey."> 
+   <title>Sunday Leisure Goldpin Tenpin Bowling League</title>
+   <link rel="stylesheet" type="text/css" href="common/main.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+   <table class="page_window" cellspacing="0" cellpadding="0" border="0">
+      <tr>
+         <td class= "header_bground">&nbsp;</td>
+         <td class= "header_bground"><script language="JavaScript" src="common/header.js" type="text/javascript"></script></td>
+         <td class= "header_bground">&nbsp;</td>
+      </tr>
+      <tr>
+         <td>&nbsp;</td>
+         <td class="page_width">
+            <div class="page_height">
+
+
+
+               <table class="page_table" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                     <td class="page_top">
+                        <h1>League AGM minutes...</h1>
+                        <p>Below is the Sunday Leisure Goldpin Tenpin Bowling League AGM minutes for the current season:</p>
+                     </td> 
+                  </tr>
+                  <tr>
+                     <td class="loading" id="iframeContainer">
+                        <script>
+                           var URL="https://docs.google.com/viewer?url=http://sundayleisure.atwebpages.com/2025/agmminutes/agmminutes.pdf&embedded=true";
+                           var count=0;
+                           var iframe=`<iframe class="iframe_cell" id="myIframe" src="${URL}"></iframe>`;
+            
+                           $(`#iframeContainer`).html(iframe);
+                           $('#myIframe').on('load', function(){ 
+                              count++;
+                              if(count>0){
+                              clearInterval(ref)
+                              }
+                           });
+
+                           var ref=setInterval(()=>{
+                           $(`#iframeContainer`).html(iframe);
+                           $('#myIframe').on('load', function() {
+                              count++;
+                              if (count > 0){
+                              clearInterval(ref)
+                              }
+                           });
+                           }, 2000)
+                        </script>
+                     </td> 
+                  </tr>
+                  <tr>
+                     <td class="page_bottom">&nbsp;</td>
+                  </tr>
+               </table>
+
+
+
+            </div>
+         </td>
+         <td>&nbsp;</td>
+      </tr>
+      <tr>
+         <td class="footer_bground">&nbsp;</td>
+         <td class="footer_bground"><script language="JavaScript" src="common/copyright.js" type="text/javascript"></script></td>
+         <td class="footer_bground">&nbsp;</td>
+      </tr>
+   </table>
+</body>
+</html>
