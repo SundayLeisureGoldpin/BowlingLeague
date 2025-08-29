@@ -1,0 +1,41 @@
+function changeyear(form) {
+   var yearindex=form.year.selectedIndex
+   window.location.replace(form.year.options[yearindex].value);
+}
+document.writeln('<form name="dropdownmenu">');
+document.writeln('<table cellspacing="0" cellpadding="0" border=0">');
+document.writeln('<tr>');
+document.writeln('<td colspan="2" style="height: 28; font-size: 12px; vertical-align: top;">Choose another season:</td>');
+document.writeln('</tr>');
+document.writeln('<tr>');
+document.writeln('<td width="95px">');
+document.writeln('<select name="year">');
+document.writeln('<option value="mainstream2024.html">2024/2025');
+document.writeln('<option value="mainstream2023.html">2023/2024');
+document.writeln('<option value="mainstream2022.html">2022/2023');
+document.writeln('<option value="mainstream2021.html">2021/2022');
+document.writeln('<option value="mainstream2019.html">2019/2020');
+document.writeln('<option value="mainstream2018.html">2018/2019');
+document.writeln('<option value="mainstream2017.html">2017/2018');
+document.writeln('<option value="mainstream2016.html">2016/2017');
+document.writeln('<option value="mainstream2015.html">2015/2016');
+document.writeln('<option value="mainstream2014.html">2014/2015');
+document.writeln('<option value="mainstream2013.html">2013/2014');
+document.writeln('<option value="mainstream2012.html">2012/2013');
+document.writeln('<option value="mainstream2011.html">2011/2012');
+document.writeln('<option value="mainstream2010.html">2010/2011');
+document.writeln('<option value="mainstream2009.html">2009/2010');
+document.writeln('<option value="mainstream2008.html">2008/2009');
+document.writeln('<option value="mainstream2007.html">2007/2008');
+document.writeln('<option value="mainstream2006.html">2006/2007');
+document.writeln('<option value="mainstream2005.html">2005/2006');
+document.writeln('<option value="mainstream2004.html">2004/2005');
+document.writeln('<option value="mainstream2003.html">2003/2004');
+document.writeln('<option value="mainstream2002.html">2002/2003');
+document.writeln('<option value="mainstream2001.html">2001/2002');
+document.writeln('</selected>');
+document.writeln('</td>');
+document.writeln('<td><input type="button" value="Go" onClick="changeyear(dropdownmenu); window.scrollTo(0,0)"></td>');
+document.writeln('</tr>');
+document.writeln('</table>');
+document.writeln('</form>');

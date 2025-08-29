@@ -1,0 +1,189 @@
+body {
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-style: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+h1 {
+	font-size: 18px;
+	color:#333333;
+}
+
+h2 {
+	font-size: 14px;
+	line-height: 18px;
+	color:#333333;
+}
+
+h3 {
+	font-size: 14px;
+	color:#333333;
+	line-height: 0px;
+	padding-top: 10px;
+}
+
+ul {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.contacts_table {
+	width: 580px;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.copyright {
+	float: left;
+	font-size: 12px;
+	color:#666666;
+	height: 100%;
+	vertical-align: top;
+	padding-top: 10px;
+	cursor: default;
+}
+
+.footer_bground {
+	height: 50px;
+	background-color: #101010;
+}
+
+.footer_links {
+	float: right;
+	font-size: 12px;
+	color:#cccccc;
+	padding-top: 10px;
+}
+
+.footer_links a {
+	color:#cccccc;
+	text-decoration: none;
+}
+
+.footer_links a:hover {
+	color:#666666;
+	text-decoration: none;
+}
+
+.header_bground {
+	height: 125px;
+	background-image: url(../images/header.png);
+	background-repeat: repeat-x;
+}
+
+.header_logo {
+	font-size: 36px;
+	color:#999999;
+	text-transform: lowercase;
+	font-weight: normal;
+	vertical-align: top;
+	padding-top: 38px;
+}
+
+.header_links {
+	height: 35px;
+	font-size: 14px;
+	color: #333333;
+}
+
+.header_links a {
+	color: #333333;
+	text-decoration: none;
+	margin-right: 18px;
+}
+
+.header_links a:hover {
+	color:#999999;
+	text-decoration: none;
+}
+
+.iframe_cell {
+	height: 100%;
+	width: 100%;
+	border-right: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+}
+
+.loading {
+        background-image: url(../images/loading.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.logo-light {
+	color:#cccccc;
+}
+
+.logo-gold {
+	color:#ffcc00;
+}
+
+.mainstream_table {
+	width: 540px;
+	font-size: 12px;
+	line-height: 16px;
+	border-collapse: collapse;
+	border: double 3px #000000;
+}
+
+.mainstream_table td {
+	text-align: center;
+	border: solid 1px;
+}
+
+.open_link {
+	color:#cccccc;
+}
+
+.page_window {
+	height: 100%;
+	width: 100%;
+}
+
+.page_width {
+	width: 750px;
+}
+
+.page_height {
+	height: 100%;
+	overflow: auto;
+}
+
+.page_table {
+	table-layout: fixed;
+	height: 100%;
+	width: 734px;
+}
+
+
+.page_top {
+	height: 100px;
+	vertical-align: top;
+	padding-top: 30px;
+}
+
+.page_right {
+	width: 448px;
+	vertical-align: top;
+	padding-top: 30px;
+	padding-right: 20px;
+}
+
+.page_left {
+	width: 280px;
+	vertical-align: top;
+	padding-top: 30px;
+	padding-top: 72px;
+}
+
+.page_bottom {
+	height: 80px;
+
+}
