@@ -10,6 +10,7 @@ document.writeln('</tr>');
 document.writeln('<tr>');
 document.writeln('<td width="95px">');
 document.writeln('<select name="year">');
+document.writeln('<option value="mainstream2025.html">2025/2026');
 document.writeln('<option value="mainstream2024.html">2024/2025');
 document.writeln('<option value="mainstream2023.html">2023/2024');
 document.writeln('<option value="mainstream2022.html">2022/2023');
